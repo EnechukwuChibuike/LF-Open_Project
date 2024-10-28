@@ -1,0 +1,30 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+
+figure {
+  height: 50vh;
+  width: 23%;
+  border: 1px solid black;
+}
+
+img {
+  height: 50%;
+  width: 100%;
+}
+
+figcaption {
+  padding: 10px;
+  text-align: center;
+  height: 50%;
+}
